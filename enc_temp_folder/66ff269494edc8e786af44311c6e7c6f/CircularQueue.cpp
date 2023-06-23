@@ -5,7 +5,7 @@ class Queues {
 	int FRONT, REAR, max = 5;
 	int queue_array[5];
 
-public:
+public: 
 	Queues() {
 		FRONT = -1;
 		REAR = -1;
@@ -69,7 +69,7 @@ public:
 			cout << "Queue is empty\n";
 			return;
 		}
-
+		
 		cout << "\nElements in the queue are...\n";
 
 		//Jika FRONT_position <= REAR_position, iterasi dari FRONT hingga REAR
