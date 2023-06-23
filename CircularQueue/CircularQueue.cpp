@@ -102,4 +102,10 @@ public:
 int main() {
 	Queues q;
 	char ch;
+
+	while (true) {
+		try {
+			cout << "Menu" << endl;
+		}
+	}
 }
