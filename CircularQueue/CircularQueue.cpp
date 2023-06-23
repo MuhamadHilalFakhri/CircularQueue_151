@@ -60,5 +60,7 @@ public:
 		}
 	}
 
+	void display() {
 
+	}
 };
